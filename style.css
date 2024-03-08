@@ -1,0 +1,60 @@
+body{
+    background-color: rgba(204, 222, 255, 0.279);
+    background-image: linear-gradient(
+        rgba(204, 222, 255, 0.279), 
+        rgba(0, 85, 242, 0.279));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container{
+    position: absolute;
+    background-color: rgb(21, 47, 96);
+    border-radius: 20px;
+    /* container in center */
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    /* items in center */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height/width */
+    min-height: 250px;
+    height: 30vh;
+    min-width: 350px;
+    width: 20%;
+}
+
+.row{
+    display: flex;
+}
+
+/* input - დავალება */
+
+button{
+    width: 50px;
+    height: 25px;
+    font-family: 'Protest Strike', sans-serif;
+    color: #ffffff;
+}
+
+/* Different button colors */
+.blue{
+    background-color: #8ca6b7;
+}
+.darkBlue{
+    background-color: #135785;
+}
+.grey{
+    background-color: #052235;
+}
+.redish{
+    background-color: #f85959;
+    width: 100px !important;
+    background-image: linear-gradient(to right, #f85959, #f8b659);
+}
+.clear_btn{
+    color: #da0000;
+}
